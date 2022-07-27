@@ -20,25 +20,6 @@ provider "registry.terraform.io/hashicorp/aws" {
   ]
 }
 
-provider "registry.terraform.io/hashicorp/http" {
-  version = "2.2.0"
-  hashes = [
-    "h1:syLdPUKrNIJ7mF7+ijSSUot8VIuFL/45kbN5UcHEIvU=",
-    "zh:159add5739a597c08439318f67c440a90ce8444a009e7b8aabbcb9279da9191f",
-    "zh:1e5fbe9a4b8d3d9f167effc03bd5324ad6ef721c23a174e98c7eb2e8b85e34e8",
-    "zh:4b150790ac5948ceec4f97df4deaff835e4798049d858c20413cbdff6e610c4d",
-    "zh:4f85c6130249f45ff0dccdcfe78296382c930c288e2f8ec844d73fa48ab3c4ef",
-    "zh:74a1270db30043d9601ed70fecea568693552758f912a37b423dec1530a6f390",
-    "zh:78d5eefdd9e494defcb3c68d282b8f96630502cac21d1ea161f53cfe9bb483b3",
-    "zh:8125231d0b16283130bac7cb4b0c4972a596af10e1a7348ff905dcb02ea61dc9",
-    "zh:83f78277025d276ee6f4fd1ae93cf69b748c6601e7cfc7e30f07beca9ce4dfdd",
-    "zh:abca2c2e14ce0984a1353f03fd13e9dc19312ab7844f64129ec09628e3d5d472",
-    "zh:b5d0f58057c730aab9a0bf348a9143e8a0ae18f2a3ddfb9f56c603aa62212601",
-    "zh:bc6054404263c1d7faaffe4c27d1f93dd5a9848d515a6eae42d43828c3e10447",
-    "zh:cb9d4a0aeebd25cbbae5b7c726deb285c007079191bc43a6a8d6b951b7ef928a",
-  ]
-}
-
 provider "registry.terraform.io/hashicorp/random" {
   version = "3.3.2"
   hashes = [
@@ -55,24 +36,5 @@ provider "registry.terraform.io/hashicorp/random" {
     "zh:c3813133acc02bbebddf046d9942e8ba5c35fc99191e3eb057957dafc2929912",
     "zh:e7a41dbc919d1de800689a81c240c27eec6b9395564630764ebb323ea82ac8a9",
     "zh:ee6d23208449a8eaa6c4f203e33f5176fa795b4b9ecf32903dffe6e2574732c2",
-  ]
-}
-
-provider "registry.terraform.io/hashicorp/tls" {
-  version = "4.0.0"
-  hashes = [
-    "h1:kOrvJIaved9HipxnVcipaOv9zILQ+mU96f5XrNqXiRA=",
-    "zh:0e274781301a67dc18b40b8544714f338759ce0170e95e79430b9a05b447aece",
-    "zh:1dbbfae8a39ad6109036fa72dff246eb9b8a02ef5b34f9cdc8b4120c9b2de81e",
-    "zh:40ccf9da97268cd8ddb49ef0349ddd0e0b97dd127522035d05156803234634d4",
-    "zh:437c030559b6352a49f6e6430415e0cfbd2668712c9155fa9b54dc2e6f8267eb",
-    "zh:50c840c579270e649d42b4276bbfacf2d3b5beae1f0dcabf0b5f535b2ce7975c",
-    "zh:6b5caf6172521bfd1beba067b4ce71793a85abb1b0f1d96a89cf54c5b5fd1223",
-    "zh:98b68106837b3e8577f239a8562387e76d408ff49d08647103664e75bc193427",
-    "zh:cc5d9db1c74a2f135563d8706b4003d9b0e344dc1d17417977438ffa15db5938",
-    "zh:de39da56477abc52f0fff7837fbd10063f8508d9fcaf377d1e6d775d0390755a",
-    "zh:f3c8509e41f4dee8b54c2c4c1b335279de044cb8bea363b5442ac368c6bdee15",
-    "zh:f569b65999264a9416862bca5cd2a6177d94ccb0424f3a4ef424428912b9cb3c",
-    "zh:f7931dda4377c6548e5fc7afddab03230ac9b42380908932542dea7661e0f078",
   ]
 }
