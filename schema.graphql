@@ -1,0 +1,12 @@
+type Mutation {
+	increase: Int
+}
+
+type Query {
+	current: Int
+}
+
+schema {
+	query: Query
+	mutation: Mutation
+}
